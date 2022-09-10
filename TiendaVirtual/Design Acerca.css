@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Dm;
+    src: url(Fonts/AQUIBKI.TTF);
+}
+
+@font-face {
+    font-family: 'Darwin';
+    src: url(Fonts/BRASSI__0.ttf);
+}
+
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+
+    width: 380px;
+    margin: auto;
+    border: 0.1px solid rgb(255, 255, 255);
+}
+
+
+.nav-bar {
+
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    height: 50px;
+    align-content: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+
+
+
+
+}
+
+
+
+.nav-bar-logo {
+    margin-top: -5px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.logo_baner {
+    display: none;
+}
+
+.navbar-nav-container {
+
+
+    display: flex;
+    width: 300px;
+    font-size: 0.8em;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    align-items: center;
+
+
+
+}
+
+.nav-bar-a {
+    padding: 3px;
+}
+
+.navbar-nav-container a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.navbar-nav-container a:hover {
+    color: rgb(230, 17, 17);
+}
+
+.Section-Parrafo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.img_div{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+.img_info{
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+footer {
+
+align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.Descripcion_1 {
+    color: rgb(22, 80, 216);
+    border-bottom: 3px solid rgb(87, 83, 83);
+    text-align: center;
+}
+
+.p-descripcion_1 {
+    color: rgb(50, 49, 49);
+
+}
+.Descripcion_2 {
+    color: rgb(216, 71, 22);
+    border-bottom: 3px solid rgb(226, 77, 77);
+    text-align: center;
+}
+
+.p-descripcion_2 {
+    color: rgb(50, 49, 49);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------Desktop Design----------*/
+
+
+@media (min-width:720px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
+    }
+
+    .main-container {
+        width: 1270px;
+        margin: auto;
+        border: 0.1px solid rgb(255, 255, 255);
+
+    }
+
+
+    .nav-bar {
+
+        background-color: rgb(67, 67, 67);
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        padding: 5px;
+        position: fixed;
+        margin-top: 0px;
+        height: 50px;
+        align-content: center;
+        border-radius: 0px;
+        border-bottom: 1px solid gray;
+
+
+    }
+
+    .nav-bar-logo {
+        margin-top: -5px;
+        margin-bottom: 0px;
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+
+    }
+
+    .logo_baner {
+        display: flex;
+        height: 50px;
+        margin-top: -4px;
+
+    }
+
+    .navbar-nav-container {
+
+
+        display: flex;
+        width: 400px;
+        font-size: 0.8em;
+        justify-content: space-between;
+        flex-direction: row;
+        list-style: none;
+        padding: 10px 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+        align-items: center;
+
+
+
+    }
+
+    .nav-bar-a {
+        padding: 3px 3px;
+    }
+
+    .navbar-nav-container a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+    }
+
+
+    .navbar-nav-container a:hover {
+
+        color: rgb(255, 0, 0);
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(255, 255, 255);
+
+
+    }
+
+    .Section-Parrafo {
+
+        margin-top: 50px;
+        margin-bottom: 130px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+
+
+
+    .Descripcion_1 {
+
+        color: rgb(10, 61, 188);
+        border-bottom: 3px solid rgb(226, 77, 77);
+        text-align: center;
+    }
+
+  .p-descripcion_1 {
+         margin-top: auto;
+        color: rgb(6, 6, 6);
+        
+    }
+
+    .Descripcion_2 {
+        color: rgb(33, 158, 91);
+        border-bottom: 3px solid rgb(226, 77, 77);
+        text-align: center;
+    }
+  .p-descripcion_2 {
+    margin-top: 25px;
+    color: rgb(39, 39, 39);
+    }
+
+    .img_div{
+      justify-content: center;
+      text-align: center;
+      margin-top: 0px;
+    }
+
+.img_info{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    align-items: center;
+    border-radius: 50%;
+}
+
+}
